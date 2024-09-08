@@ -1,0 +1,23 @@
+name: Run tests
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Static code analysis
+        run: npm run static_check
+
+      - name: Check proper formatting
+        run: npm run formatting_check
+
+      - name: Run tests
+        run: npm run test

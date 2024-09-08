@@ -20,6 +20,8 @@ In Visual Studio Code (abbr. VS Code), install the extension _Live Server_, then
 
 For proper styling, the VS Code extension _Prettier - Code formatter_ is used. After the install, go to the VS Code settings, search for _Configure Default Formatter_ and select this extension. Also be sure to search for _Format on Save_ and check the setting.
 
+Also be sure to install the extension _ESLint_git_.
+
 ## Sidenotes
 
 The calculation is carried out by the Federal Ministry of Finance using [this](https://www.bmf-steuerrechner.de/interface/einganginterface.xhtml) API. Using the API is allowed for test purposes only.
