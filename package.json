@@ -1,0 +1,12 @@
+{
+  "name": "german_paycheck_calculator",
+  "version": "1.0.0",
+  "main": "index.html",
+  "keywords": [],
+  "author": "Rostislav Isa",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "5.3.3"
+  }
+}
